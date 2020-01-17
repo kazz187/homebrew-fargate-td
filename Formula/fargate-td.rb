@@ -1,9 +1,9 @@
 class FargateTd < Formula
   desc "Generator of amazon fargate task definitions"
-  homepage ""
-  url "https://github.com/kazz187/fargate-td/releases/download/v0.0.10/fargate-td_darwin_amd64.zip"
-  version "0.0.10"
-  sha256 "258ac4737f28e0c2fe91660ae1d00b9f5f942307dd3d1b2ff8d1f7e712dfa8e3"
+  homepage "https://github.com/kazz187/fargate-td"
+  url "https://github.com/kazz187/fargate-td/releases/download/v0.0.19/fargate-td_darwin_amd64.zip"
+  version "0.0.19"
+  sha256 "2719e0749750388bef646544d22d7e9f98c349bca3a800b23a0073c8001f98c4"
 
   def install
     bin.install "fargate-td"
